@@ -1,0 +1,5 @@
+image_name: rivethead42/mongo
+entrypoint: "/entrypoint.sh"
+volume: /data/db /data/configdb
+expose: 27017
+cmd: mongod
